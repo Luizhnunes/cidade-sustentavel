@@ -2,13 +2,13 @@
 import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import Login from './pages/Login';
-import Cadastro from './pages/Cadastro';
-import RecuperarSenha from './pages/RecuperarSenha';
-import Home from './pages/Home';
-import Logoff from './pages/Logoff';
-import RelatarProblema from './pages/RelatarProblema';
-import Dashboard from './pages/Dashboard';
+import Login from './pages/login.jsx';
+import Cadastro from './pages/cadastro.jsx';
+import RecuperarSenha from './pages/recuperarsenha.jsx';
+import Home from './pages/home.jsx';
+import Logoff from './pages/logoff.jsx';
+import RelatarProblema from './pages/RelatarProblema.jsx';
+import Dashboard from './pages/Dashboard.jsx';
 
 function App() {
   const [relatos, setRelatos] = useState(() => {
