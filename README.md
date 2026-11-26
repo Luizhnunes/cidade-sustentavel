@@ -1,16 +1,108 @@
-# React + Vite
+# 🌱 Cidade Sustentável
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## 1. Sobre o Projeto
 
-Currently, two official plugins are available:
+O **Cidade Sustentável** é uma aplicação web desenvolvida para incentivar a participação da comunidade na preservação ambiental, na limpeza urbana e na sustentabilidade.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+A plataforma permite que cidadãos consultem informações ambientais e registrem problemas urbanos, como acúmulo de lixo, buracos nas ruas e falhas na iluminação pública.
 
-## React Compiler
+O projeto foi desenvolvido como atividade acadêmica, utilizando React e tecnologias web.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 2. Objetivo
 
-## Expanding the Oxlint configuration
+Promover a conscientização ambiental e incentivar a participação da população na conservação dos espaços públicos, oferecendo uma plataforma para consulta de informações e registro de problemas urbanos.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 3. Funcionalidades
+
+- **Login:** tela de acesso ao sistema.
+- **Cadastro:** formulário para criação de usuários.
+- **Recuperação de senha:** demonstração do fluxo de recuperação de acesso.
+- **Home educativa:** informações sobre sustentabilidade, coleta seletiva e preservação ambiental.
+- **Relatos urbanos:** formulário para registrar problemas com categoria, descrição, localização e fotografia.
+- **Geolocalização:** possibilidade de informar a localização do relato.
+- **Dashboard da Prefeitura:** painel para visualizar, pesquisar, filtrar e atualizar os relatos.
+- **Mapa interativo:** visualização dos relatos que possuem coordenadas geográficas.
+- **Armazenamento local:** utilização do localStorage para manter os relatos no navegador.
+
+## 4. Tecnologias Utilizadas
+
+- React
+- JavaScript
+- HTML5
+- CSS3
+- Vite
+- React Router DOM
+- React Leaflet
+- Leaflet
+- OpenStreetMap
+- Git e GitHub
+
+## 5. Como Executar o Projeto
+
+### Pré-requisitos
+
+- Node.js instalado.
+- npm instalado.
+- Git instalado.
+
+### Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Luizhnunes/cidade-sustentavel.git
+```
+
+Entre na pasta:
+
+```bash
+cd cidade-sustentavel
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute a aplicação:
+
+```bash
+npm run dev
+```
+
+Abra no navegador o endereço apresentado pelo terminal, normalmente:
+
+```text
+http://localhost:5173
+```
+
+## 6. Armazenamento e Limitações
+
+Nesta versão acadêmica, os relatos são armazenados utilizando o localStorage do navegador.
+
+Isso permite manter os dados após atualizar a página, mas eles não são compartilhados entre diferentes dispositivos ou usuários.
+
+O login, o cadastro e a recuperação de senha são demonstrações de interface, sem autenticação real ou integração com servidor.
+
+O projeto não possui backend ou banco de dados remoto nesta versão.
+
+## 7. Público-Alvo
+
+- Moradores da cidade.
+- Estudantes e instituições de ensino.
+- Pessoas interessadas em sustentabilidade.
+- Cidadãos que desejam comunicar problemas urbanos.
+- Organizações relacionadas ao meio ambiente.
+
+## 8. Objetivos de Desenvolvimento
+
+- Incentivar a coleta seletiva.
+- Promover o descarte correto de resíduos.
+- Conscientizar sobre a preservação ambiental.
+- Facilitar o registro de problemas urbanos.
+- Incentivar a participação da comunidade.
+
+## 9. Projeto Acadêmico
+
+Projeto desenvolvido como atividade acadêmica, com foco em desenvolvimento web, React, componentes reutilizáveis, gerenciamento de estado e integração entre páginas.
