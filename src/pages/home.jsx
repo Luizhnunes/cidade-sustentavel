@@ -1,7 +1,7 @@
 
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Botao from '../components/Botao';
+import Navbar from '../components/navbar';
+import Footer from '../components/footer';
+import Botao from '../components/botao';
 
 function Home() {
   return (

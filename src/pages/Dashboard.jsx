@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import MapaRelatos from '../components/MapaRelatos';
+import MapaRelatos from '../components/mapaRelatos';
 
 function Dashboard({ relatos, onResponder, onAtualizarStatus }) {
   const [respostas, setRespostas] = useState({});
